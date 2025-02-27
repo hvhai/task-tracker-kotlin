@@ -1,10 +1,13 @@
 package task_tracker_kotlin
 
+import java.util.Scanner
+
 class TaskTrackerCLI(val taskManager: TaskManager) {
     fun start() {
         try {
             print("task-cli ")
-            val input = readLine()
+
+            val input = Scanner(System.`in`).nextLine()
             requireNotNull(input) { "Invalid input" }
             val command = input.split(" ")[0]
             when (command) {
