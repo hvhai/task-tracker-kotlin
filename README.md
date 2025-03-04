@@ -9,8 +9,8 @@ All data will store in a JSON file (data.json), ensuring your tasks are saved be
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Farnam-Hs/Task-Tracker.git
-    cd Task-Tracker
+    git clone https://github.com/hvhai/task-tracker-kotlin.git
+    cd task-tracker-kotlin
     ```
 2. Run the application:
 - Using Gradle:
